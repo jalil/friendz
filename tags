@@ -1,0 +1,2 @@
+actionmailer	Gemfile.lock	/^    actionmailer (4.0.0)$/
+expand_path	Rakefile	/^require File.expand_path('..\/config\/application'/

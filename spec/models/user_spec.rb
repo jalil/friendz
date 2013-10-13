@@ -7,4 +7,5 @@ describe User do
   it{should validate_uniqueness_of(:email)}
   it{should have_many(:friends)}
   it{should have_one(:beneficiary)}
+  it{should have_many(:pictures)}
 end
