@@ -6,4 +6,8 @@ class User < ActiveRecord::Base
   has_many   :friends
   has_many   :pictures
   has_one    :beneficiary
+
+
+  def self.full_name
+  end
 end

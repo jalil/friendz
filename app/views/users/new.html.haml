@@ -1,0 +1,12 @@
+
+=bootstrap_form_for(@user, html: {class: 'form-horizontal'}, help: :block) do |f| 
+  =f.alert_message  "Please fix the errors below."
+
+  =f.text_field :first_name, label: 'First Name'
+  %br
+  =f.text_field :last_name, label: 'Last Name'
+  %br
+  =f.text_field :email, label: 'Email'
+  %br
+  =f.primary 'Create My Account'
+
