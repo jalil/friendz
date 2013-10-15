@@ -5,6 +5,9 @@ class UsersController < ApplicationController
 
   def show
     @user = User.first
+    @friends = @user.friends
+    @number_of_friends = @friends.count
+    @beneficiaries = @user.beneficiaries
   end
 
   def new

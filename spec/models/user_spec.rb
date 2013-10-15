@@ -6,6 +6,6 @@ describe User do
   it{should validate_presence_of(:email)}
   it{should validate_uniqueness_of(:email)}
   it{should have_many(:friends)}
-  it{should have_one(:beneficiary)}
+  it{should have_many(:beneficiaries)}
   it{should have_many(:pictures)}
 end

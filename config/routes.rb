@@ -5,6 +5,8 @@ Dearfriends::Application.routes.draw do
   # You can have the root of your site routed with "root"
    root 'pages#index'
 
+   resources :beneficiaries
+   resources :pictures
    resources :users
    resources :pages, only: [:index]
 end

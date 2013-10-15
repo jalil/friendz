@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   validates  :email,     uniqueness:   true
   has_many   :friends
   has_many   :pictures
-  has_one    :beneficiary
+  has_many   :beneficiaries, limit: 2
 
 
   def self.full_name

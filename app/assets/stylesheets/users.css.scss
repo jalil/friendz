@@ -3,14 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .friends-container {
-  width: 800px;
+  width: 600px;
   height: 700px;
   float: right;
   margin-right: 100px;
+  border: 1px solid black;
 }
 
   .title {
     text-align: center; 
   }
 
-  p {font-style:italic;}
+  p {font-style:italic;
+      font-size: 14px;
+}
